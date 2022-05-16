@@ -1,3 +1,13 @@
 # Axy installation guide
 
-**j**
+1.FR : Ouvrir un terminal
+1.EN : Open terminal
+
+2.FR : Puis tapez ses commandes dans le terminal :
+2.EU : Then type its commands in the terminal:
+
+
+`git clone https://github.com/FrenchCamp/axyoff`
+`cd axyoff`
+`python3 axy.py`
+
