@@ -20,17 +20,6 @@
 
 `pip install beautifulsoup4`
 
-# Python
-1.FR : (Requis pour faire fonctionner Axy)   
-1.EU : (Required to run Axy) 
-
-2.FR : tapez ses commandes dans le terminal :  
-2.EU : type its commands in the terminal:   
-
-Linux `sudo apt intall python3`
-Windows : `https://www.python.org/`
-
-
 
 
 
