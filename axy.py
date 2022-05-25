@@ -1,17 +1,18 @@
 #!/usr/bin/python3
 
+from bs4 import BeautifulSoup
+import requests
 import os
 import sys
 from termcolor import colored
 from art import *
 
-
-
 sys.path.append('__init__')
 
- 
+ip = input('[Scraping -> Adress] >>> ')
+os.system('clear')
 def main():
- print('')
+ chx = input('>>> ')
 tprint('Axy')
 print(colored('  By FrenchCamp (BETA VERSION)', 'green'))
 print(colored('-------------------------------------------', 'red'))
@@ -20,18 +21,18 @@ print(colored('-------------------------------------------', 'red'))
 
 print(colored('Use "help" for list of commands ', 'cyan'))
 
-
+rep = requests.get(ip)
 chx = input('>>> ')
 
 
-while True: 
- if chx == 'scraping':
-   from vuln import vuln
- 
 
+while True:
 
- elif chx == 'scan':
-   from scan import scan
+ if chx == 'text':
+    soup = BeautifulSoup(rep.text, 'html.parser')
+    print(soup)
+    chx = input('>>> ')
+    
 
  
 
@@ -39,27 +40,31 @@ while True:
   os.system('clear')
   chx = input('>>> ')
 
-  
-  
+
+ elif chx == 'finder':
+    soup = BeautifulSoup(rep.text, 'html.parser')
+    find = input('[Scraping -> Find element] >>> ')
+    item = soup.find_all(find)
+    print(item)
+    chx = input('>>> ')
+    soup = BeautifulSoup(rep.text, 'html.parser')
 
  elif chx == 'help':
   print('----------')
   print(colored('Help', 'red'))
   print('----------')
-  print(colored('1.Commands', 'yellow'))
-  print('help: show help\nscraping: Launch the Web Scraping interface\nScan: launches the Website Scraping scanner menu\n99: Exit Application')
-  print(colored('2.About Developper', 'yellow'))
+  print(colored('1/2.Commands : (Basic commands)', 'yellow'))
+  print('help: show help\ncls : clear\n99: Exit Application')
+  print(colored('2/2.Commands : (Scraping commands)', 'yellow'))
+  print('text : displays the code of the page in question\nfinder : search for an element on the page in question')
+  print(colored('About Developper', 'yellow'))
   print('The developer named Frenchcamp is a French child who is passionate about programming and cyberseurity, he is currently 11 years old.\nWebsite: https://frenchcamp.github.io/fr/')
-  print(colored('2.About Axy', 'yellow'))
+  print(colored('About Axy', 'yellow'))
   print('Axy is a Web Scraping application developed by FrenchCamp.\nWebsite : https://frenchcamp.github.io/fr/axy.html ')
   chx = input('>>> ')
 
  elif chx == '99':
    sys.exit()
-
- elif chx == 'clear':
-  os.system('clear')
-  chx = input('>>> ')
  
  elif chx == 'report':
   print('A bug, a problem? you can report it with the following email address:')
