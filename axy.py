@@ -54,7 +54,7 @@ while True:
   print(colored('Help', 'red'))
   print('----------')
   print(colored('1/2.Commands : (Basic commands)', 'yellow'))
-  print('help: show help\ncls : clear\n99: Exit Application')
+  print('help: show help\ncls : clear\nreport : report a bug\n99: Exit Application')
   print(colored('2/2.Commands : (Scraping commands)', 'yellow'))
   print('text : displays the code of the page in question\nfinder : search for an element on the page in question')
   print(colored('About Developper', 'yellow'))
