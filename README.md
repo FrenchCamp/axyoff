@@ -20,7 +20,7 @@
 * EU : type its commands in the terminal:  
 
 `pip install beautifulsoup4`
-# BeautifoulSoup
+# Python
 * FR : (Requis pour faire fonctionner Axy)   
 * EU : (Required to run Axy)  
 
