@@ -1,4 +1,4 @@
-https://img.shields.io/github/pipenv/locked/python-version/FrenchCamp/axyoff
+https://img.shields.io/github/languages/code-size/FrenchCamp/axyoff
 # Axy installation guide
 
 1.FR : Ouvrir un terminal  
