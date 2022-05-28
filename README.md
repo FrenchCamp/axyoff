@@ -26,7 +26,7 @@
 
 * FR : tapez ses commandes dans le terminal :  
 * EU : type its commands in the terminal:  
-`sudo apt install python3`
+`sudo apt install python3`  
 
 
 
