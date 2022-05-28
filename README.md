@@ -1,4 +1,6 @@
 [![Taille](https://img.shields.io/github/languages/code-size/FrenchCamp/axyoff)](https://github.com/FrenchCamp/axyoff)
+https://img.shields.io/docker/v/FrenchCamp/axyoff
+[![Taille](https://img.shields.io/docker/v/FrenchCamp/axyoff)](https://github.com/FrenchCamp/axyoff)
 # Axy installation guide
 
 1.FR : Ouvrir un terminal  
