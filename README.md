@@ -1,11 +1,11 @@
 [![Taille](https://img.shields.io/github/languages/code-size/FrenchCamp/axyoff)](https://github.com/FrenchCamp/axyoff)
 # Axy installation guide
 
-1.FR : Ouvrir un terminal  
-1.EN : Open terminal  
+* FR : Ouvrir un terminal  
+* EN : Open terminal  
 
-2.FR : Puis tapez ses commandes dans le terminal :  
-2.EU : Then type its commands in the terminal:  
+* FR : Puis tapez ses commandes dans le terminal :  
+* EU : Then type its commands in the terminal:  
 
 
 `git clone https://github.com/FrenchCamp/axyoff`  
@@ -13,13 +13,21 @@
 `python3 axy.py`  
 
 # BeautifoulSoup
-1.FR : (Requis pour faire fonctionner Axy)   
-1.EU : (Required to run Axy)  
+* FR : (Requis pour faire fonctionner Axy)   
+* EU : (Required to run Axy)  
 
-2.FR : tapez ses commandes dans le terminal :  
-2.EU : type its commands in the terminal:  
+* FR : tapez ses commandes dans le terminal :  
+* EU : type its commands in the terminal:  
 
 `pip install beautifulsoup4`
+# BeautifoulSoup
+* FR : (Requis pour faire fonctionner Axy)   
+* EU : (Required to run Axy)  
+
+* FR : tapez ses commandes dans le terminal :  
+* EU : type its commands in the terminal:  
+`sudo apt install python3`
+
 
 
 
