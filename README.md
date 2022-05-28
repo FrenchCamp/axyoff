@@ -1,4 +1,3 @@
-https://img.shields.io/github/languages/code-size/FrenchCamp/axyoff
 [![Taille](https://img.shields.io/github/languages/code-size/FrenchCamp/axyoff)](https://github.com/FrenchCamp/axyoff)
 # Axy installation guide
 
