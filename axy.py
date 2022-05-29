@@ -17,37 +17,27 @@ tprint('Axy')
 print(colored('  By FrenchCamp (BETA VERSION)', 'green'))
 print(colored('-------------------------------------------', 'red'))
 
-
-
 print(colored('Use "help" for list of commands ', 'cyan'))
 
 rep = requests.get(ip)
+soup = BeautifulSoup(rep.text, 'html.parser')
 chx = input('>>> ')
 
-
-
 while True:
-
+ 
  if chx == 'text':
-    soup = BeautifulSoup(rep.text, 'html.parser')
     print(soup)
     chx = input('>>> ')
-    
-
- 
 
  elif chx == 'cls':
   os.system('clear')
   chx = input('>>> ')
 
-
  elif chx == 'finder':
-    soup = BeautifulSoup(rep.text, 'html.parser')
     find = input('[Scraping -> Find element] >>> ')
     item = soup.find_all(find)
     print(item)
     chx = input('>>> ')
-    
 
  elif chx == 'help':
   print('----------')
@@ -71,7 +61,9 @@ while True:
   print(colored('frenchcamp.axy.bug@gmail.com', 'blue'))
   chx = input('>>> ')
 
-
  else:
   print(''+chx+': invalid command')
   chx = input('>>> ')
+
+
+
