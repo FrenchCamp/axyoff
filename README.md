@@ -1,5 +1,6 @@
 [![Taille](https://img.shields.io/github/languages/code-size/FrenchCamp/axyoff)](https://github.com/FrenchCamp/axyoff)
 [![tag](https://img.shields.io/github/v/tag/FrenchCamp/axyoff?include_prereleases)](https://github.com/FrenchCamp/axyoff)
+[![télé](https://img.shields.io/github/downloads/FrenchCamp/axyoff/total)](https://github.com/FrenchCamp/axyoff)
 # Axy
 Outil de Web Scraping/Grattage Web automatisé.
 # Axy installation guide
